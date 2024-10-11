@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "neon-green-db",
+      "Group": "Servers",
+      "Host": "neon-green-db-1",
+      "Port": 5432,
+      "MaintenanceDB": "postgres",
+      "Username": "neon-green",
+      "SSLMode": "prefer"
+    }
+  }
+}
