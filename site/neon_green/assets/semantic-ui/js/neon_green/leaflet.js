@@ -18,6 +18,11 @@ document.addEventListener("DOMContentLoaded", () => {
         async: true,
         gpx_options: {
             parseElements: ['track', 'route']
+        },
+        markers: {
+            // TODO: Figure out how to display stock images from leaflet-gpx
+            startIcon: null,
+            endIcon: null
         }
     }).on('loaded', (e) => {
         map.fitBounds(e.target.getBounds());
