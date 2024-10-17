@@ -25,6 +25,6 @@ def preview(file):
     return render_template(
         "neon_green/gpx.html",
         file=file,
-        js_bundles=current_previewer.js_bundles + ["leaflet_js.js"],
-        css_bundles=current_previewer.css_bundles + ["leaflet_css.css"],
+        js_bundles=current_previewer.js_bundles + ["gpx_js.js"],
+        css_bundles=current_previewer.css_bundles + ["gpx_css.css"],
     )
