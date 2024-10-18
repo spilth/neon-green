@@ -9,8 +9,8 @@ theme = WebpackThemeBundle(
     themes={
         "semantic-ui": dict(
             entry={
-                "leaflet_js": "./js/neon_green/leaflet.js",
-                "leaflet_css": "./css/neon_green/leaflet.css"
+                "gpx_js": "./js/neon_green/gpx.js",
+                "gpx_css": "./css/neon_green/gpx.css"
             },
             dependencies={
                 "leaflet": "^1.9.4",
